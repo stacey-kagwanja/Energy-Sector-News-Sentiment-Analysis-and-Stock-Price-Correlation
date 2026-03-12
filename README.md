@@ -10,7 +10,7 @@ This project investigates how news sentiment in the energy sector correlates wit
 
 Energy markets are highly sensitive to macroeconomic events and news cycles. This project explores whether headline sentiment can serve as a meaningful signal for energy sector returns, using both a pre-trained financial NLP model and a custom-built LSTM classifier trained from scratch.
 
-The analysis was conducted over a 59-day window using curated energy headlines and price data from the iShares WENE ETF as a sector-wide proxy.
+The analysis was conducted over a 59-day window using curated energy headlines and price data from the WENE ETF as a sector-wide proxy.
 
 ---
 
