@@ -1,0 +1,18 @@
+# Data Processing & Math
+pandas
+numpy
+openpyxl
+yfinance
+
+# Visualization
+matplotlib
+
+# Machine Learning & AI
+torch
+scikit-learn
+transformers
+gensim
+requests
+
+# Utilities
+typing_extensions
