@@ -18,7 +18,7 @@ The analysis was conducted over a 59-day window using curated energy headlines a
 
 ### 1. Sentiment & Stock Price Analysis
 - Loaded a curated dataset of energy sector news headlines
-- Retrieved energy sector returns using the **iShares WENE ETF**
+- Retrieved energy sector returns using the **WENE ETF**
 - Applied **FinBERT** (a pre-trained financial sentiment model) to classify each headline as *positive*, *negative*, or *neutral*
 - Computed correlation between daily sentiment scores and same-day returns
 - **Finding:** Only weak same-day correlation was observed, suggesting that lagged effects are more significant than immediate reactions
