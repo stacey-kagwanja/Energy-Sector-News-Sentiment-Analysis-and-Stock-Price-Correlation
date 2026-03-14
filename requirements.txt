@@ -6,6 +6,7 @@ yfinance
 
 # Visualization
 matplotlib
+seaborn
 
 # Machine Learning & AI
 torch
