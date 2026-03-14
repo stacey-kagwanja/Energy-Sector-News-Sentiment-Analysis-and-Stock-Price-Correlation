@@ -23,11 +23,15 @@ The analysis was conducted over a 59-day window using curated energy headlines a
 - Computed correlation between daily sentiment scores and same-day returns
 - **Finding:** Only weak same-day correlation was observed, suggesting that lagged effects are more significant than immediate reactions
 
+![Sentiment vs Price Movement Correlation](Sentiment%20vs%20Price%20Movement%20Correlation0.png)
+
 ### 2. Custom LSTM Sentiment Classifier
 - Built and trained an **LSTM model** using frozen **GloVe word embeddings**
 - Used FinBERT-generated labels as training targets (silver labelling)
 - Achieved **60% accuracy** on a 3-class sentiment classification task
 - Validated that sentiment is a learnable signal even with limited training data, while confirming that transfer learning (FinBERT) outperforms custom models at this data scale
+
+![Confusion Matrix Test Set](Confusion%20Matrix%20Test%20Set0.png)
 
 ---
 
@@ -54,7 +58,7 @@ The analysis was conducted over a 59-day window using curated energy headlines a
 |-----------|------------|
 | Sentiment model | FinBERT (ProsusAI) |
 | Custom model | LSTM with GloVe embeddings |
-| Price data | iShares WENE ETF |
+| Price data | WENE ETF |
 | Language | Python |
 
 ---
@@ -62,10 +66,8 @@ The analysis was conducted over a 59-day window using curated energy headlines a
 ## Installation
 
 Clone the repository and install the required dependencies:
-
 ```bash
-git clone https://github.com/stacey-kagwanja/Energy-Sector-News-Sentiment-Analysis-and-Stock-Price-Correlation
-.git
+git clone https://github.com/stacey-kagwanja/Energy-Sector-News-Sentiment-Analysis-and-Stock-Price-Correlation.git
 cd Energy-Sector-News-Sentiment-Analysis-and-Stock-Price-Correlation
 pip install -r requirements.txt
 ```
@@ -74,8 +76,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-Open and run the notebook:
-
+Download the Jupyter notebook (`Energy_News_Sentiment.ipynb`) and the `data` folder into the same directory, then open and run the notebook:
 ```
 Energy_News_Sentiment.ipynb
 ```
