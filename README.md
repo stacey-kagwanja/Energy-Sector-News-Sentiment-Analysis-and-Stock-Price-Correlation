@@ -23,7 +23,7 @@ The analysis was conducted over a 59-day window using curated energy headlines a
 - Computed correlation between daily sentiment scores and same-day returns
 - **Finding:** Only weak same-day correlation was observed, suggesting that lagged effects are more significant than immediate reactions
 
-<img src="Sentiment%20vs%20Price%20Movement%20Correlation0.png" width="600"/>
+<img src="Images%20for%20README/Sentiment%20vs%20Price%20Movement%20Correlation0.png" width="600"/>
 
 ### 2. Custom LSTM Sentiment Classifier
 - Built and trained an **LSTM model** using frozen **GloVe word embeddings**
@@ -31,7 +31,7 @@ The analysis was conducted over a 59-day window using curated energy headlines a
 - Achieved **60% accuracy** on a 3-class sentiment classification task
 - Validated that sentiment is a learnable signal even with limited training data, while confirming that transfer learning (FinBERT) outperforms custom models at this data scale
 
-<img src="Confusion%20Matrix%20Test%20Set0.png" width="600"/>
+<img src="Images%20for%20README/Confusion%20Matrix%20Test%20Set0.png" width="600"/>
 
 ---
 
